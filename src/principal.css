@@ -13,8 +13,6 @@
     src: url("/public/fonts/Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf");
 }
 
-
-
 ul{
     
 }
@@ -68,129 +66,10 @@ h3{
     position: relative;
     overflow: hidden;
     box-sizing: border-box;
-    
-}
-
-.divProyecto{
-    margin: 0;
-    padding: 0;
-    width: 20%;
-    height: 90%;
-    border: 2px solid black ;
-    border-radius: 9px;
-    background-color: #b1b6a6;
-    box-sizing: border-box;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.divProyecto:hover{
-    box-shadow: 3px 3px greenyellow;
-    cursor: pointer;
-}
-
-.imgPage{
-    width: 90%;
-    height: auto;
-    border: 1px solid black;
-    border-radius: 9px;
-    margin-top: 1rem;
-}
-
-.descripcionWeb{
-    width: 90%;
-    overflow: hidden;
-}
-
-#chanelNumber{
-    z-index: 3;
-    position: absolute;
-    right: 5%;
-    top: 0%;
-    color: greenyellow;
-    font-size: 3rem;
-    opacity: .8;
-    font-family: "orbitron";
-}
-
-#chanelName{
-    z-index: 3;
-    position: absolute;
-    right: 5%;
-    top: 80%;
-    color: greenyellow;
-    font-size: 3rem;
-    opacity: .8;
-    font-family: "orbitron";
-}
-
-.tecnologias{
-    padding: 0;
-    margin: 0;
-    font-family: "RedHatDisplay";
-    color: #202033;
-    font-size: small;
 }
 
 p{
     font-family: "RedHatDisplay";
-}
-
-a,li{
-    text-decoration: none;
-    color:rgba(255, 255, 255, 0.548);
-    text-align: center;
-}
-
-a{
-    display: block;
-}
-
-li:hover{
-    color:white;
-    cursor: pointer;
-    border: 1px solid white;
-    border-radius: 9px;
-}
-
-a:hover{
-    color:white;
-    display: block;    
-}
-
-#usFlagIco{
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    right: 65Px;
-    top: 0px;
-}
-
-#linkedinIco{
-    position: absolute;
-    top: 0;
-    right: 70px;
-    width: 20px;
-    height: 20px;
-}
-
-#githubIco{
-    position: absolute;
-    top: 0;
-    right: 60px;
-    width: 20px;
-    height: 20px;
-}
-
-#mailIco{
-    position: absolute;
-    top: 0;
-    right: 80px;
-    width: 20px;
-    height: 20px;
 }
     
 #video1{
@@ -205,7 +84,6 @@ a:hover{
 #videoSolitario{
     width: 70%;
     height: auto;
-
 }   
 
 #divisor{

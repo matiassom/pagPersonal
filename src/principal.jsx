@@ -3,8 +3,6 @@ import Proyecto from './proyecto.jsx'
 
 function Principal(){
     
-
-
     return(
         <>
 

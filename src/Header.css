@@ -54,6 +54,9 @@ li{
     text-decoration: none;
     color:rgba(255, 255, 255, 0.548);
     text-align: center;
+    -webkit-user-select: none;
+    user-select: none;
+    
 }
 
 li:hover{
@@ -107,4 +110,37 @@ a:hover{
     width: 20px;
     height: 20px;
 }
+
+nav{
+    position: relative;
+}
     
+#imgMail{
+    width: 300px;
+    height: 50px;
+    background-color: #202033;
+    z-index: 5;
+    position: absolute;
+    top: 130%;
+    left: 90px;
+    border: 2px solid white;
+    border-radius: 9px;
+}
+#dirMail{
+    width: 200px;
+    height: auto;
+}
+
+#copyMail{
+    font-family: "RedHatDisplay";
+    padding: 3px;
+    font-weight: bolder;
+    background-color: #b1b6a6;
+    border-radius: 9px;
+    position: absolute;
+    top: 7px;
+    right: 20px;
+}
+#copyMail:hover{
+    cursor: pointer;
+}
