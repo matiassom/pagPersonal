@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom';
 import './Header.css'
 
 
@@ -22,7 +23,7 @@ function Header(){
     return(
         <>
         <header>
-        <h1>Sombeck.dev</h1>
+        <Link to={"/"}><h1>Sombeck.dev</h1></Link>
         <nav>
             <ul>
                 <li><a target='_blanck' rel="noopener" href="https://github.com/matiassom" ><img className="icono" title="githubIco" id="githubIco" src="/public/icons8-github-24.png"/>Github</a></li>

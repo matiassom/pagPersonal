@@ -13,10 +13,6 @@
     src: url("/public/fonts/Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf");
 }
 
-ul{
-    
-}
-
 li{
     display: inline-block;
     list-style: none;
@@ -27,17 +23,6 @@ li{
     border: 1px solid transparent;
 }
 
-body{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #202033;
-}
 
 h2{
     margin: 0;
@@ -89,4 +74,10 @@ p{
 #divisor{
     margin-top: 3rem;
     margin-bottom: 3rem;
+}
+
+.divPrincipal a{
+    width: 20%;
+    height: 90%;
+    text-decoration: none;
 }

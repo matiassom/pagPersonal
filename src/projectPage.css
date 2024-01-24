@@ -1,0 +1,14 @@
+#divProjectPage{
+    width: 100%;
+    text-align: center;
+}
+
+#divProjectPage h1{
+    text-align: center;
+    color: white;
+}
+
+#divProjectPage video{
+    width: 70%;
+    height: auto;
+}

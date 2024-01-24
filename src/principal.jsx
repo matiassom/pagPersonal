@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom';
 import './principal.css'
 import Proyecto from './proyecto.jsx'
 
@@ -13,7 +14,6 @@ useEffect(()=>{
     
 },[]);
     
-    
     return(
         <>
 
@@ -23,10 +23,10 @@ useEffect(()=>{
 <span id="chanelNumber"></span>
 <span id="chanelName"></span>
 
-<Proyecto chanNumber={data?data[0].nro:null} chanName={data?data[0].name:null} imgSrc={data?data[0].imgSrc:null} tecno={data?data[0].tec:null} description={data?data[0].lang.esp.Descripción:"."}/>
-<Proyecto chanNumber={data?data[1].nro:null} chanName={data?data[1].name:null} imgSrc={data?data[1].imgSrc:null} tecno={data?data[1].tec:null} description={data?data[1].lang.esp.Descripción:"."}/>
-<Proyecto chanNumber={data?data[2].nro:null} chanName={data?data[2].name:null} imgSrc={data?data[2].imgSrc:null} tecno={data?data[2].tec:null} description={''}/>
-<Proyecto chanNumber={data?data[3].nro:null} chanName={data?data[3].name:null} imgSrc={data?data[3].imgSrc:null} tecno={data?data[3].tec:null} description={''}/>
+<Link to={"/project/0"}><Proyecto chanNumber={data?data[0].nro:null} chanName={data?data[0].name:null} imgSrc={data?data[0].imgSrc:null} tecno={data?data[0].tec:null} description={data?data[0].lang.esp.Descripción:"."}/></Link>
+<Link to={"/project/1"}><Proyecto chanNumber={data?data[1].nro:null} chanName={data?data[1].name:null} imgSrc={data?data[1].imgSrc:null} tecno={data?data[1].tec:null} description={data?data[1].lang.esp.Descripción:"."}/></Link>
+<Link to={"/project/2"}><Proyecto chanNumber={data?data[2].nro:null} chanName={data?data[2].name:null} imgSrc={data?data[2].imgSrc:null} tecno={data?data[2].tec:null} description={data?data[2].lang.esp.Descripción:"."}/></Link>
+<Link to={"/project/3"}><Proyecto chanNumber={data?data[3].nro:null} chanName={data?data[3].name:null} imgSrc={data?data[3].imgSrc:null} tecno={data?data[3].tec:null} description={data?data[3].lang.esp.Descripción:"."}/></Link>
 
 </div>
 
