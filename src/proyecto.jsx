@@ -15,7 +15,7 @@ return(
         <img src={props.imgSrc} className="imgPage"/>
         <h3>{props.chanName}</h3>
         <span className="tecnologias">{props.tecno}</span>
-        <article className="descripcionWeb"><p>{props.description}</p></article>
+        <article className="descripcionWeb"><p>{props.description.length<=110?props.description:props.description.slice(0,110)+" ..."}</p></article>
     </div>
     </>
 )
