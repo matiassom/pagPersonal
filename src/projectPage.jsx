@@ -25,9 +25,18 @@ function ProjectPage(){
             <Header/>
             <div id="divProjectPage">
             <video autoPlay loop muted src={data.videoSrc}/>
-            <h1>{data.name} {parseInt(id)+1}</h1>
-            <span>Link: </span><a target="_blank" rel="noreferrer" href={data.linkP}>{data.linkP}</a>
-            <span>Github:   </span><a target="_blank" rel="noreferrer" href={data.gith}>{data.gith}</a>
+            <h1>{data.name}</h1>
+            <span id="tecSpan">{data.tec}</span>
+            <div id="divDatos">
+                <div id="leftDiv">
+                    <span><strong>Link:</strong> <a target="_blank" rel="noreferrer" href={data.linkP}>{data.linkP}</a></span>
+                    <span><strong>Github:</strong> <a target="_blank" rel="noreferrer" href={data.gith}>{data.gith}</a>   </span>
+                    <span><strong>Deploy:</strong> {data?data.lang.esp.Despliegue:null}</span>
+                </div>            
+                <div id="rightDiv">
+                    <p>{data?data.lang.esp.Descripción:null}</p>
+                </div>
+            </div>
             </div>
             <Footer/>
         </>
