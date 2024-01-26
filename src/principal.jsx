@@ -7,7 +7,7 @@ function Principal(){
     const [data,setData] = useState("");
 
 useEffect(()=>{
-    fetch("/public/cont.json")
+    fetch("https://gist.githubusercontent.com/matiassom/6e746a8cdafa8683b29c18d106290439/raw/95c5626d33b29c1b35081f4ae4fc13de83167341/gistfile1.txt")
     .then(res=>res.json())
     .then(data=>setData(data))
     .catch(error=>console.error("error fetching data",error));
@@ -18,7 +18,7 @@ useEffect(()=>{
         <>
 
 <div className="divPrincipal">
-<video  autoPlay loop muted id="video1" src="/public/videoScreen.mp4" type="video/mp4"/>
+<video  autoPlay loop muted id="video1" src="./videoScreen.mp4" type="video/mp4"/>
 
 <span id="chanelNumber"></span>
 <span id="chanelName"></span>
