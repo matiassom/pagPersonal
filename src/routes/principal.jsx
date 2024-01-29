@@ -18,7 +18,7 @@ useEffect(()=>{
         <>
 
 <div className="divPrincipal">
-<video  autoPlay loop muted id="video1" src="./videoScreen.mp4" type="video/mp4"/>
+<video  autoPlay loop muted id="video1" src="../videoScreen.mp4" type="video/mp4"/>
 
 <span id="chanelNumber"></span>
 <span id="chanelName"></span>
