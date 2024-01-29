@@ -1,9 +1,9 @@
-import './App.css'
+import './root.css'
 import Header from './Header.jsx'
 import Principal from './principal.jsx'
 import Footer from './footer.jsx'
 
-function App() {
+function Root() {
   
 
   return (
@@ -15,4 +15,4 @@ function App() {
   )
 }
 
-export default App
+export default Root

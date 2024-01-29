@@ -1,14 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import Root from './routes/root.jsx'
+import ProjectPage from './routes/projectPage.jsx'
 import {createBrowserRouter,RouterProvider} from "react-router-dom"
 import './index.css'
-import ProjectPage from './projectPage.jsx'
+
 
 const router = createBrowserRouter ([
   {
     path:"/",
-    element: <App/>,
+    element: <Root/>,
   },
   {
     path: "project/:id",
