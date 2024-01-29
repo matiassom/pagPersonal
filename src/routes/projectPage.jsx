@@ -1,4 +1,4 @@
-import { Outlet, useParams } from "react-router-dom"
+import { useParams } from "react-router-dom"
 import { useEffect,useState } from "react"
 import Header from "./Header.jsx"
 import Footer from "./footer.jsx"
@@ -35,7 +35,6 @@ function ProjectPage(){
                 </div>
             </div>
             </div>
-            <Outlet/>
             <Footer/>
         </>
     )
